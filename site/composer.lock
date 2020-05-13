@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0e8963677e9bdf25c3112ee056e23163",
+    "content-hash": "87737746a590edb63131d21032f2edcd",
     "packages": [
         {
             "name": "composer/installers",
@@ -544,6 +544,24 @@
                 "environment"
             ],
             "time": "2020-04-12T15:20:09+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/co-authors-plus",
+            "version": "3.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/co-authors-plus/",
+                "reference": "tags/3.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/co-authors-plus.3.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/co-authors-plus/"
         },
         {
             "name": "wpackagist-plugin/elasticpress",
