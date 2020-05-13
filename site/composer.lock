@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc849afd6db045cab0f924b32f28065b",
+    "content-hash": "0e8963677e9bdf25c3112ee056e23163",
     "packages": [
         {
             "name": "composer/installers",
@@ -544,6 +544,24 @@
                 "environment"
             ],
             "time": "2020-04-12T15:20:09+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/elasticpress",
+            "version": "3.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/elasticpress/",
+                "reference": "tags/3.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/elasticpress.3.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/elasticpress/"
         }
     ],
     "packages-dev": [
