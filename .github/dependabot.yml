@@ -1,0 +1,19 @@
+version: 2
+updates:
+- package-ecosystem: composer
+  directory: "/site"
+  schedule:
+    interval: daily
+    time: "13:00"
+  open-pull-requests-limit: 10
+  allow:
+  - dependency-name: wpackagist-plugin*
+  ignore:
+  - dependency-name: wpackagist-plugin/elasticpress
+    versions:
+    - 3.5.3
+    - 3.5.4
+    - 3.5.5
+  - dependency-name: wpackagist-plugin/co-authors-plus
+    versions:
+    - 3.4.3
