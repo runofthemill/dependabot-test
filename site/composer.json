@@ -38,7 +38,7 @@
     "roots/wordpress": "5.4.1",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "wpackagist-plugin/elasticpress": "3.2",
+    "wpackagist-plugin/elasticpress": "3.6.1",
     "wpackagist-plugin/co-authors-plus": "3.4"
   },
   "require-dev": {
